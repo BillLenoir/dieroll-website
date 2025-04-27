@@ -25,7 +25,7 @@ body {
 .inner-container {
     max-width: 60em;
     margin: 2em auto;
-    border:1px solid #666666;
+    border:2px solid #666666;
     box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.3);
     background-color: #ffffff;
 }
@@ -86,11 +86,12 @@ article p {
 /* Footer */
 footer {
     border-top: 1px solid #ccc;
-    margin-top: 3em;
-    padding-top: 1em;
     font-size: 0.875em;
-    color: #666;
-    text-align: center;
+}
+
+section {
+   width: 60%;
+   margin: 1em auto;
 }
 
 /* Responsive tweaks */
