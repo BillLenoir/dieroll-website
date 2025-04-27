@@ -1,17 +1,215 @@
-<h2>My Beef with Odds-Based Combat</h2>
-<p>Most wargames resolve combat by adding up the attacker’s strength, comparing it to the defender’s, and turning that into an odds ratio — like 3:1. It's simple, familiar, and quick. But I believe it wildly oversimplifies something that, in reality, is a messy, chaotic, and multi-layered process. Most combat systems use a single random roll to cover every possible factor, from weapon effectiveness to morale breakdowns to pure dumb luck. I think we can — and should — do better.</p>
-<p>Combat isn’t one thing; it’s at least eight overlapping questions happening at once:</p>
-<ol>
-  <li>
-    <p><strong>What’s the maximum kinetic energy the attacking units can project onto the enemy?</strong></p>
-    <p>How many bullets, shells, bayonets, and stern looks can they deliver under perfect conditions?</p>
-  </li>
-  <li>
-    <p><strong>What’s the probability curve across that range?</strong></p>
-    <p>Maybe 100 steps between 0% and 100%, but weighted based on conditions — not a flat line.</p>
-  </li>
-  <li>
-    <p><strong>What’s the actual amount delivered?</strong></p>
-    <p>A random pull from the curve above.</p>
-  </li>
-</ol>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History + Gaming - My Beef with Odds-Based Combat</title>
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+  </head>
+  <body>
+    <div class="outer-container">
+      <div class="inner-container">
+
+        <header>
+          <img src="../../assets/images/history_gaming_logo.png"
+            alt="The logo for the History + Gaming blog. This is a Venn diagram of History and Gaming, with an indication that Bill lives in the overlap." />
+          <h1>Wherein Bill Holds Forth<br /> on History and Gaming</h1>
+          <nav></nav>
+        </header>
+
+        <main>
+          <article>
+            <h2>My Beef with Odds-Based Combat Resolution</h2>
+            <p>Most wargames resolve combat by adding up the attacker’s
+              strength, comparing
+              it to the defender’s, and turning that into an odds ratio — like
+              3:1. It's
+              simple, familiar, and quick. But I believe it wildly
+              oversimplifies something
+              that, in reality, is a messy, chaotic, and multi-layered process.
+              Most combat
+              systems use a single random roll to cover every possible factor,
+              from weapon
+              effectiveness to morale breakdowns to pure dumb luck. I think we
+              can — and
+              should — do better.</p>
+
+            <p>Combat isn’t one thing; it’s at least eight overlapping questions
+              happening
+              at once:</p>
+            <ol>
+              <li>
+                <p><strong>What’s the maximum kinetic energy the attacking units
+                    can project
+                    onto the enemy?</strong></p>
+                <p>How many bullets, shells, bayonets, and stern looks can they
+                  deliver
+                  under perfect conditions?</p>
+              </li>
+
+              <li>
+                <p><strong>What’s the probability curve across that
+                    range?</strong></p>
+                <p>Maybe 100 steps between 0% and 100%, but weighted based on
+                  conditions —
+                  not a flat line.</p>
+              </li>
+
+              <li>
+                <p><strong>What’s the actual amount delivered?</strong></p>
+                <p>A random pull from the curve above.</p>
+              </li>
+
+              <li>
+                <p><strong>What’s the actual effect on the target?</strong></p>
+                <p>Casualties, broken radios, abandoned tanks, shattered morale
+                  — again,
+                  random, and again influenced by context.</p>
+              </li>
+            </ol>
+
+            <p>And then, of course, the same four steps happen for the other
+              side.</p>
+
+            <p>We need abstraction for a playable game — no question — but
+              collapsing all
+              this into a single random number based on a ratio feels wrong to
+              me.
+              Odds-based combat can sometimes approximate reasonable outcomes,
+              but it breaks
+              down badly at the edges — and, worse, it subtly warps the way
+              players think
+              about real-world combat.</p>
+
+            <h3>The Problems with Odds-Based Combat</h3>
+
+            <p>Before diving into specifics, it's worth asking: why does this
+              even
+              matter?</p>
+
+            <p>Because the combat system defines a wargame. It shapes whether
+              battles feel
+              plausible or ridiculous, whether luck feels thrilling or
+              frustrating, and
+              whether players make historically grounded decisions or not. When
+              a system’s
+              foundation is shaky, even the best map, OOB, and scenario design
+              can’t save
+              the experience. Odds-based combat, in my view, starts with the
+              wrong
+              foundation.</p>
+
+            <h4>It Conflates the Ability to Deal Damage with the Ability to
+              Absorb It</h4>
+
+            <p>Combat boils down to two separate random processes: how much
+              force you can
+              unleash, and how much you can absorb. Odds-based systems jam these
+              into a
+              single dimension.</p>
+
+            <p>When you calculate a 3:1 ratio, what exactly is being measured?
+              Firepower?
+              Resilience? Morale? Armor thickness? It tries to do too much with
+              a single
+              number — and that's why we end up needing a pile of modifiers to
+              "fix" obvious
+              contradictions.</p>
+
+            <p>Imagine a WW2 light tank unit, led by the best tankers in
+              history, attacking
+              a unit of heavy tanks with green crews. The light tanks might
+              dodge well,
+              flank smartly, and cause temporary chaos — but their guns can’t
+              seriously harm
+              heavy armor. Conversely, even a clumsy heavy tank unit can wreck
+              light tanks
+              when they get a hit. How does a single 3:1 or 1:3 odds ratio
+              capture that?</p>
+
+            <h4>It Offers Too Few Possible Outcomes</h4>
+
+            <p>Typical CRTs (Combat Results Tables) are based on 1d6, 2d6, or
+              1d10 rolls —
+              six, eleven or ten outcomes. That's not nearly enough to model
+              real-world
+              variance.</p>
+
+            <p>Even if we just assume two possible results (good or bad) for
+              each of the
+              four random processes I outlined earlier, that’s 16 combinations.
+              If you add
+              just six gradations per process, that's 1,296 combinations.</p>
+
+            <p>More possible outcomes mean long tails, freak events, marginal
+              victories, and
+              (critically) no effect results — all of which happen constantly in
+              real
+              battles. It also means you can separate the effect on Side A from
+              the effect
+              on Side B, rather than tying them together in a zero-sum
+              dance.</p>
+
+            <h4>It Misinterprets the 3:1 Rule</h4>
+
+            <p>Odds-based combat systems likely owe their existence to the U.S.
+              Army’s
+              famous 3:1 rule — the idea that attackers need a 3:1 advantage to
+              have a good
+              chance of success. But that rule is about absorbing the enemy’s
+              fire as much
+              as it is about delivering your own.</p>
+
+            <p>You don't automatically win just because you have 3x the numbers;
+              you win
+              because you can lose 2x as much and still keep going. Odds-based
+              combat
+              forgets that subtlety and treats force ratios as a magic key to
+              victory.</p>
+
+            <h4>Tradition Is a Hell of a Drug</h4>
+
+            <p>In the end, I think odds-based systems stuck around because
+              they’re easy to
+              design, easy to teach, and players have been trained to expect
+              them. They’re
+              the standard — but just because something is standard doesn’t mean
+              it’s
+              good.</p>
+
+            <p>If we want wargames that feel richer, more unpredictable, and
+              closer to the
+              real-world chaos they’re meant to model, we need to think beyond
+              simple
+              odds.</p>
+          </article>
+        </main>
+
+        <footer>
+          <section id="license">
+            <p>
+              All original content on <strong>History + Gaming</strong> is
+              licensed under a
+              <a rel="license"
+                href="https://creativecommons.org/licenses/by-nc/4.0/"
+                target="_blank">
+                Creative Commons Attribution-NonCommercial 4.0 International
+                License
+              </a>.
+            </p>
+            <p>
+              That means you can copy it, remix it, and share it — as long as
+              you:
+              <ul>
+                <li>Give credit to <strong>History + Gaming</strong>.</li>
+                <li>Keep it non-commercial (no selling, no ads, no
+                  profit-making).</li>
+              </ul>
+            </p>
+          </section>
+        </footer>
+
+      </div>
+    </div>
+  </body>
+</html>

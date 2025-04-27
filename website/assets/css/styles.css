@@ -64,8 +64,8 @@ nav a:hover {
 
 /* Main blog content */
 article {
-    margin-bottom: 3em;
-    padding: 2em;
+    margin-bottom: 1em;
+    padding: 1em;
 }
 
 article h2 {
@@ -81,6 +81,28 @@ article img {
 article p {
     margin: 1em 0;
     font-size: 1em;
+}
+
+article p.read-on {
+    margin: 1em 0;
+    font-size: 1.25em;
+    text-align: right;
+}
+
+figure.blog-image {
+    max-width: 15em;
+    margin: 0 0 1em 3em;
+    border: 1px solid #999999;
+    padding:0.5em;
+    background-color: #cccccc;
+    float: right;
+    text-align: center;
+    font-size: 0.75em;
+    font-style: italic;
+}
+
+figure.blog-image img {
+    border: 1px solid #000000;
 }
 
 /* Footer */
