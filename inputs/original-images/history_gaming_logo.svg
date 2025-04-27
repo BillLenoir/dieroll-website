@@ -24,8 +24,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="3.4808738"
-     inkscape:cx="194.77868"
-     inkscape:cy="110.8917"
+     inkscape:cx="183.28731"
+     inkscape:cy="136.74727"
      inkscape:window-width="1728"
      inkscape:window-height="1051"
      inkscape:window-x="370"
@@ -90,16 +90,6 @@
        id="tspan4">Gaming</tspan></text>
   <!-- Plus Sign -->
   <!-- 'Bill lives here' Text -->
-  <text
-     x="215.42349"
-     y="182.28491"
-     font-family="Arial"
-     font-size="16px"
-     fill="#000000"
-     id="text4"
-     style="font-size:16px;font-family:Arial;fill:#000000"><tspan
-       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
-       id="tspan7">Bill lives here</tspan></text>
   <!-- Arrow from 'Bill lives here' to overlap -->
   <defs
      id="defs4">
@@ -154,27 +144,4 @@
      style="font-size:24px;font-family:Arial;text-anchor:middle;fill:#000000"><tspan
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:26.6667px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Bold Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
        id="tspan6">+</tspan></text>
-  <path
-     style="fill:none;stroke:#ff0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-     d="m 210.33197,175.93806 c 0,0 -27.88681,-10.0084 -35.18762,-21.69462 -8.07606,-12.92715 -4.49766,-37.50578 -4.49766,-37.50578"
-     id="path6"
-     sodipodi:nodetypes="csc" />
-  <path
-     sodipodi:type="star"
-     style="fill:#ff0000;stroke:#ff0000;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-     id="path7"
-     inkscape:flatsided="true"
-     sodipodi:sides="3"
-     sodipodi:cx="122.75979"
-     sodipodi:cy="15.609542"
-     sodipodi:r1="14.340491"
-     sodipodi:r2="7.1237249"
-     sodipodi:arg1="0.52143444"
-     sodipodi:arg2="1.568632"
-     inkscape:rounded="0"
-     inkscape:randomized="0"
-     d="m 135.19451,22.752891 -24.8384,0.05376 12.37264,-21.5375658 z"
-     inkscape:transform-center-x="0.36460529"
-     inkscape:transform-center-y="0.12879689"
-     transform="matrix(0.35921886,0,0,0.35921886,126.10623,109.11892)" />
 </svg>
