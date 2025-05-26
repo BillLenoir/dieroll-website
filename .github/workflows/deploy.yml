@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  deploy:
+  deploy-prod:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -19,9 +19,26 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
-          role-to-assume: arn:aws:iam::770599626613:role/history+gaming-deployer
+          role-to-assume: arn:aws:iam::770599626613:user/history+gaming-deployer-PROD
           aws-region: us-east-1
           
       - name: Deploy to S3
         run: |
           aws s3 sync ./website s3://historyplusgaming.com/ --delete
+
+  deploy-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          role-to-assume: arn:aws:iam::770599626613:user/history+gaming-deployer-TEST
+          aws-region: us-east-1
+          
+      - name: Deploy to S3
+        run: |
+          aws s3 sync ./website s3://test.historyplusgaming.com/ --delete
+          
