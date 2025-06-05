@@ -12,6 +12,7 @@ permissions:
 
 jobs:
   deploy-prod:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -28,6 +29,7 @@ jobs:
           aws s3 sync ./website s3://historyplusgaming.com/ --delete --exact-timestamps
 
   deploy-test:
+    if: github.ref == 'refs/heads/test'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code

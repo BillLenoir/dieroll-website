@@ -19,12 +19,12 @@ body {
 
 /* Layout wrapper */
 .outer-container {
-    margin: 2em;
+    margin: 1.5em;
 }
 
 .inner-container {
     max-width: 60em;
-    margin: 2em auto;
+    margin: 1em auto;
     border:2px solid #666666;
     box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.3);
     background-color: #ffffff;
@@ -65,7 +65,7 @@ nav a:hover {
 /* Main blog content */
 article {
     margin-bottom: 1em;
-    padding: 2em 3em 1em;
+    padding: 2em 2em 1em;
 }
 
 article h2 {
@@ -99,6 +99,10 @@ article li {
 
 article li li {
     font-size: 1em;
+}
+
+article ol, article ul {
+    padding-left: 1.75em;
 }
 
 article p:not(li p) {
