@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 1em;
-    background-color: #cccccc;
+    background-color: #333;
     color: #000;
 }
 
@@ -25,14 +25,14 @@ body {
 .inner-container {
     max-width: 60em;
     margin: 1em auto;
-    border:2px solid #666666;
-    box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.3);
+    border:6px outset #ff0000;
+    border-radius: 18px;
     background-color: #ffffff;
 }
 
 /* Header */
 header {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #ff0000;
     padding: 0.5em 2em 0;
 }
 
@@ -139,7 +139,7 @@ figure img {
 
 /* Footer */
 footer {
-    border-top: 1px solid #000;
+    border-top: 1px solid #ff0000;
     padding: 1em 3em;
     font-size: 0.875em;
 }
