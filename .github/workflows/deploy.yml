@@ -28,20 +28,20 @@ jobs:
         run: |
           aws s3 sync ./website s3://dieroll.com/ --delete --exact-timestamps
 
-  # deploy-test:
-  #   if: github.ref == 'refs/heads/test'
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Checkout code
-  #       uses: actions/checkout@v3
+  deploy-test:
+    if: github.ref == 'refs/heads/test'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
         
-  #     - name: Configure AWS credentials
-  #       uses: aws-actions/configure-aws-credentials@v2
-  #       with:
-  #         role-to-assume: arn:aws:iam::770599626613:role/history+gaming-deployer-role-TEST
-  #         aws-region: us-east-1
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v2
+        with:
+          role-to-assume: arn:aws:iam::770599626613:role/dieroll-deploy-role-TEST
+          aws-region: us-east-1
           
-  #     - name: Deploy to S3
-  #       run: |
-  #         aws s3 sync ./website s3://test.historyplusgaming.com/ --delete --exact-timestamps
+      - name: Deploy to S3
+        run: |
+          aws s3 sync ./website s3://test.dieroll.com/ --delete --exact-timestamps
           
